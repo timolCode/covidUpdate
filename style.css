@@ -1,0 +1,54 @@
+
+.mynav {
+    height: 40px;
+    width:100%;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    background-color: rgb(176, 192, 228);
+}
+
+.mynav ul li{
+    list-style-type: none;
+    float: left;
+    padding-right: 2.5rem;
+    
+    }
+
+    .mynav ul li a{
+        text-decoration: none;
+        font-size: 20px;
+    }
+    body{
+       
+        background:blanchedalmond url("./images.jpe") center/cover no-repeat;
+    }
+    *{
+        padding: 0;
+        margin:0;
+        box-sizing: border-box;
+    }
+
+    .navbar{
+        height: 180px;
+        widows: 100px;
+    }
+
+    .header-nav{
+     height: 120px;
+     width: 100%;
+     background-color: azure;
+     opacity: 25%;   
+     align-items: center;
+     justify-content: center;
+    }
+
+    .header-title{
+        align-items: center;
+        letter-spacing: 0.2rem;
+        font-size: 2rem;
+        justify-content: center;
+        color:black;
+    }
+
+    
